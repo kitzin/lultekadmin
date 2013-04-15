@@ -1,0 +1,154 @@
+@import url("base.css");
+
+.container {
+	height: 4000px;
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.divider {
+	clear: both;
+	margin-top: 60px;
+}
+
+header {
+	position: static;
+	top: 0px;
+	width: 1000px;
+}
+
+/* Header logo */
+#header-logo {
+	float: left;
+	margin-left: 30px;
+}
+#header-logo > h1 {
+	margin-top: 10px;
+	position: relative;
+}
+/*#header-logo > h1:hover > a > .sqr {
+	border-top-color: #2CA857;
+	border-left-color: #2CA857;
+}*/
+#header-logo > h1 > a > .sqr {
+	width: 20px;
+	height: 20px;
+	top: 4px;
+	left: -10px;
+}
+#header-logo > h1 > a {
+	text-decoration: none;
+	text-shadow: 1px 1px 5px #FFFFFF;
+	color: #AAAAAA;
+	font-size: 30px;
+}
+#header-logo > h1 > a > span {
+	font-size: 16px;
+	margin-left: 5px;
+}
+
+/* Header navigation */
+#header-nav {
+	float: right;
+	margin-right: 100px;
+}
+#header-nav > ul {
+	margin-top: 22px;
+}
+#header-nav > ul > li {
+	display: inline-block;
+}
+#header-nav > ul > li > a {
+	font-size: 15px;
+	text-decoration: none;
+	color: #999999;
+	border-top: 3px solid #DDDDDD;
+	padding: 0px 5px;
+	padding-top: 20px;
+	text-shadow: 1px 1px 5px #FFFFFF;
+}
+#header-nav > ul > li > a:hover {
+	border-top-color: #34B1E3;
+}
+
+
+/* User management */
+.welcome {
+	width: 100%;
+	
+}
+.welcome > h1 {
+	color: #555555;
+	font-size: 30px;
+	margin-top: 40px;
+	margin-left: 30px;
+	border-bottom: 1px solid #DDDDDD;
+}
+.welcome > h1 > span {
+	font-size: 14px;
+	margin-left: 30px;
+}
+
+#adduser > div {
+	width: 750px;
+	margin: 30px auto;
+	margin-top: 50px;
+}
+#adduser > div > input[type="text"] {
+	padding: 7px;
+	position: relative;
+	top: -2px;
+	margin-right: 10px;
+	width: 250px;
+}
+
+#users > table {
+	margin-top: 40px;
+}
+#users > table > tbody > tr {
+	
+}
+#users > table > tbody > tr:nth-child(even) {
+	background-color: #DDDDDD;
+}
+#users > table > tbody > tr > th {
+	font-weight: normal;
+	font-size: 17px;
+	text-align: center;
+	padding: 7px 15px;
+}
+#users > table > tbody > tr > td {
+	padding: 7px 15px;
+	margin: 0px 5px;
+}
+#users > table > tbody > tr > td > input {
+	
+}
+#users > table > tbody > tr > td > select {
+	padding: 5px;
+	width: 120px;
+}
+#users > table > tbody > tr > td > a {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

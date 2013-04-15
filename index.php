@@ -15,7 +15,7 @@
 				<hr class="hr-divider" />
 			</h1>
 			<div id="login-container">
-				<form action="control/" method="post">
+				<form action="control/#/" method="post">
 					<label>Användarnamn<br /><input type="text" name="username" /></label>
 					<br />
 					<label>Lösenord<br /><input type="text" name="password" /></label>

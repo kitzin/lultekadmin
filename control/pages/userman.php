@@ -7,7 +7,7 @@
 	</div>
 </section>
 <section id="users">
-	<table>
+	<table id="user_table">
 		<tr>
 			<th>Namn</th>
 			<th>Andvändarnamn</th>
@@ -31,7 +31,7 @@
 			</td>
 			<td><input type="checkbox" /></td>
 			<td>0.3MB</td>
-			<td><a class="btn" href="#/user/{ INSERT USER ID HERE }">Mer</a></td>
+			<td><a class="btn" href="#/management/user/{ INSERT USER ID HERE }">Mer</a></td>
 		</tr>
 		<tr>
 			<td>Fredrik Göben</td>

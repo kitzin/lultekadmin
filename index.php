@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Lultek | Admin Login</title>
+		<title>Lultek | Administrationspanel</title>
 		
 		<link rel="stylesheet" href="assets/style/login.css" />
 	</head>
